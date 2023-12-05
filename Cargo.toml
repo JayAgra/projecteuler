@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "id_1",
+    "id_2",
+    "id_3"
+]
+resolver = "2"
+
+[workspace.dependencies]
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+
+[build]
+rustflags = ["-C", "target-cpu=native"]
