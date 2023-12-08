@@ -1,1 +1,10 @@
 projecteuler
+
+---------- times ----------
+id 1         1.37 ms   Rust
+id 2         1.27 ms   Rust
+id 3     18346.00 ms   Rust
+id 4         1.16 ms   Rust
+id 5         1.29 ms   Rust
+id 6         1.13 ms   Rust
+id 7       287.54 ms   Rust
